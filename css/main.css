@@ -9,9 +9,9 @@ html {
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before,
 .is-validated:invalid,
-.is-validated[type="checkbox"]:invalid + label::before] {
+.is-validated[type="checkbox"]:invalid + label::before {
   border-color: #f33;
-  }
+}
 
 .error-message {
   display: none;
